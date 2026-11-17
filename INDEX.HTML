@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Group 4</title>
+    <meta charset="UTF-8">
+
+    <style>
+    body {
+        background-color: rgb(138, 80, 63);
+        color: rgb(17, 15, 4);
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin: 0;
+    }
+    
+    header {
+        background-color: #000;
+        color: rgb(136, 129, 88);
+        padding: 20px;
+        border-bottom: 2px solid rgb(139, 132, 92);
+    }
+
+    footer {
+        background-color: #000;
+        color: white;
+        padding: 15px;
+        border-top: 2px solid rgb(139, 130, 79);
+    }
+
+            header, footer {
+            background-color: #111;
+            padding: 20px;
+        }
+
+        nav a {
+            background-color:black;
+            color: rgb(138, 129, 82);
+            text-decoration:underline;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        section {
+            margin: 30px;
+            padding: 20px;
+            border: 3px solid rgb(12, 12, 12);
+            border-radius: 10px;
+        }
+
+        table {
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 2px solid rgb(14, 13, 11);
+            padding: 10px;
+        }
+
+        button {
+            background-color: rgb(139, 131, 82);
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input, textarea {
+            width: 60%;
+            padding: 8px;
+            margin: 5px;
+        }
+    
+        table { border-collapse: collapse; }
+        th, td { border: 3px solid black; padding: 5px; }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>B_Mahrtin Prime Ltd.</h1>
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Services</a> |
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+<section>
+    <h2>About Us</h2>
+    <p>This is a <strong>multi-sector company</strong> providing <em>reliable services</em>.</p>
+</section>
+
+<section>
+    <h3>Our Services</h3>
+    <Ol style="list-style-position: inside;">
+        <li>Building Materials</li>
+        <li>Technology Products</li>
+        <li>Services</li>
+        <li>Luxury Goods</li>
+        <li>BOYS</li>
+    </ul>
+</section>
+
+<section>
+    <h3>Steps We Follow</h3>
+    <ol style="list-style-position: inside;">
+        <li>Source Products</li>
+        <li>Store in Warehouse</li>
+        <li>Deliver to Customers</li>
+    </ol>
+</section>
+
+<section>
+    <h3>Product Table</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Phone</td>
+                <td>₦150,000</td>
+            </tr>
+            <tr>
+                <td>Perfume</td>
+                <td>₦25,000</td>
+            </tr>
+            <tr>
+                <td>airplane</td>
+                <td>₦150,000,000,000</td>
+            </tr>
+            <tr>
+                <td>Fidelis</td>
+                <td>₦50</td>
+            </tr>
+            <tr>
+                <td>Mcwyse</td>
+                <td>₦25</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section>
+    <h3>Media</h3>
+
+    <figure>
+        <img src="c:/Users/USER/Pictures/Saved Pictures/WhatsApp Image 2026-03-23 at 11.46.39 AM (1).jpeg" alt="Sample Product Image" width="250">
+        <figcaption>Sample Product Image</figcaption>
+    </figure>
+
+    <video controls width="650">
+        <source src="c:/Users/USER/Downloads/Kimetsu.no.Yaiba.Hashira.Geiko-hen.E01.(NKIRI.COM).mkv" type="video/x-matroska">
+    </video>
+</section>
+
+<section>
+    <h3>Contact Us</h3>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+
+        <label for="service">Choose Service:</label><br>
+        <select id="service" name="service">
+            <option>Tech</option>
+            <option>Building Materials</option>
+            <option>Luxury</option>
+        </select><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<aside>
+    <p><small>Special offers coming soon!</small></p>
+</aside>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 B_Mahrtin Prime Ltd.</p>
+</footer>
+
+</body>
+</html>
